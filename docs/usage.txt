@@ -1,0 +1,31 @@
+
+
+python3 -m venv venv
+source venv/bin/activate
+
+
+Requirement 1 
+
+python .\src\describe.py datasets\dataset_trian.csv
+
+
+Requirement 2
+
+python .\src\histogram.py datasets\dataset_train.csv
+python .\src\scatter_plot.py datasets\dataset_train.csv
+python .\src\pair_plot.py datasets\dataset_train.csv
+
+Requirement 3
+
+python .\src\logreg_train.py datasets\dataset_train.csv
+python .\src\logreg_predict.py datasets\dataset_test.csv weights.csv
+
+
+Bonus
+
+python .\src\bonus_visualize.py datasets\dataset_train.csv
+
+
+Evaluation
+
+python .\src\evaluate.py
