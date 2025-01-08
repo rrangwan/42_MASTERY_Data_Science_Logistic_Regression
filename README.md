@@ -1,4 +1,4 @@
-# 42_MASTERY_Python_for_Data_Science
+# 42_MASTERY_Data_Science_Logistic_Regression
 
 
 Given a training set of data for Harry Potter students belonging to one of four houses; with features of courses and skills; predict the allocation to house given test data.
