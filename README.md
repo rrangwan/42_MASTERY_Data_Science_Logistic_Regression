@@ -1,10 +1,7 @@
 # 42_MASTERY_Data_Science_Logistic_Regression
 
 
-Given a training set of data for Harry Potter students belonging to one of four houses; with features of courses and skills; predict the allocation to house given test data.
-This was a logictic model, because the houses were categories and not continous data. <br><br>
-
-The data was analyzed to determine which field to use and which to drop by looking at the general statistics as well as assessing visualizations. <br><br>
+Given a training dataset of Harry Potter students categorized into one of four houses, with features representing courses and skills, the objective was to predict house allocation for a test dataset. A logistic regression model was employed, as the target variable was categorical rather than continuous. Data preprocessing involved analyzing general statistics and visualizations to determine which features to retain or exclude for optimal model performance.<br><br>
 
 # usage
 
