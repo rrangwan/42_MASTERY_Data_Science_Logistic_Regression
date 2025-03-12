@@ -10,32 +10,25 @@ The data was analyzed to determine which field to use and which to drop by looki
 
 
 <br><br>
-python3 -m venv venv <br>
-source venv/bin/activate <br><br>
 
 
 Requirement 1 <br><br>
 
-python .\src\describe.py datasets\dataset_trian.csv<br><br>
+python describe.py ../datasets/dataset_train.csv <br><br>
 
 
-Requirement 2<br><br>
+Requirement 2 <br><br>
 
-python .\src\histogram.py datasets\dataset_train.csv <br>
-python .\src\scatter_plot.py datasets\dataset_train.csv <br>
-python .\src\pair_plot.py datasets\dataset_train.csv <br><br>
+python histogram.py datasets\dataset_train.csv <br>
+python scatter_plot.py datasets\dataset_train.csv <br>
+python pair_plot.py datasets\dataset_train.csv <br><br>
 
 Requirement 3 <br><br>
 
-python .\src\logreg_train.py datasets\dataset_train.csv <br>
-python .\src\logreg_predict.py datasets\dataset_test.csv weights.csv <br><br>
+python logreg_train.py datasets\dataset_train.csv <br>
+python logreg_predict.py datasets\dataset_test.csv weights.csv <br><br>
 
 
-Bonus <br><br> 
+Bonus <br><br>
 
-python .\src\bonus_visualize.py datasets\dataset_train.csv <br><br>
-
-
-Evaluation <br><br>
-
-python .\src\evaluate.py
+python bonus_visualize.py datasets\dataset_train.csv <br><br>
